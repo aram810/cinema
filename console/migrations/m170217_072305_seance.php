@@ -7,7 +7,7 @@ class m170217_072305_seance extends Migration
     public function up()
     {
         $this->createTable('seance', [
-            'id' => 'int(11) unsigned NOT NULL',
+            'id' => 'int(11) unsigned NOT NULL AUTO_INCREMENT',
             'hall_id' => 'INT(11) UNSIGNED NOT NULL',
             'movie_id' => 'INT(11) UNSIGNED NOT NULL',
             'start_time' => 'TIME NOT NULL',
